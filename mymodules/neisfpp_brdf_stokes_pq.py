@@ -99,7 +99,7 @@ def calc_self_masking_heitz_pq_q16(
     l_dot_n_q16: int,
     roughness_sq_q16: int,
 ) -> int:
-    """
+    r"""
     Singularity-free rational `p/q` (`Q16`) Heitz GGX self-masking $G(\mathbf{v}, \mathbf{l})$.
     """
     lv = calc_lambda_heitz_pq_q16(v_dot_n_q16, roughness_sq_q16)
